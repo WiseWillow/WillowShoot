@@ -1,9 +1,14 @@
 #include <QCoreApplication>
 #include <iostream>
 
+using namespace std;
+
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
-    std::cout << "Witam";//Arek
+
+    cout << "Witam"<< endl;//Arek
+    cout << "Arek, Ty wiesz kim jestes, nie?" << endl;
+
     return a.exec();
 }
