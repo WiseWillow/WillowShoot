@@ -1,3 +1,5 @@
 *.pro.user
 *~
 clope/myplants.data
+clope_implementation-build-desktop-Qt_4_8_1_w_PATH__System__Debug/*
+clope_implementation-build-desktop-Qt_4_8_1_w_PATH__System__Release/*

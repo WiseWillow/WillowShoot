@@ -14,8 +14,11 @@ HEADERS += \
     filemanagement.h \
     clope.h
 
-INCLUDEPATH += \
-    ../../../../tbb41_20130116oss/include
+INCLUDEPATH += /home/gosciunew/Dokumenty/ChimneyLABS_documents/tbb41_20130116oss/include
 
-LIBS += -L/home/gosciunew/Dokumenty/ChimneyLABS_documents/Clustering/tbb41_20130116oss/lib/ia32/cc4.1.0_libc2.4_kernel2.6.16.21 \
+LIBS += -L/home/gosciunew/Dokumenty/ChimneyLABS_documents/tbb41_20130116oss/lib/ia32/cc4.1.0_libc2.4_kernel2.6.16.21 \
         -ltbb
+
+LIBS += -L/lib/i386-linux-gnu \
+        -lrt
+
